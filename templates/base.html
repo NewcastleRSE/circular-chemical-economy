@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    {% block head %}{% endblock %}
+</head>
+    
+<body>
+    {% block body %}{% endblock %}
+</body>
+</html>
